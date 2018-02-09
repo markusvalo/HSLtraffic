@@ -26,7 +26,7 @@ WHERE
   hslstop_times.stop_id = hslstops.stop_id AND
   hsltrips.service_id = hslcalendar.service_id AND
   hsltrips.trip_id = hslstop_times.trip_id AND
-  hslroutes.route_id = hsltrips.route_id AND
+  hslroutes.route_id = hsltrips.route_id /* AND 
   hslcalendar.wednesday = 1 AND
   hsltrips.trip_id LIKE '%20180205_Ke%' AND
-  hslroutes.route_short_name='322' ;
+  hslroutes.route_short_name='322' */ ;
