@@ -96,11 +96,11 @@ WITH (
 )
 ;
 
-COPY HSLstops FROM '/home/markus/HSL/stops.txt' DELIMITER ',' CSV HEADER;
-COPY HSLstop_times FROM '/home/markus/HSL/stop_times.txt' DELIMITER ',' CSV HEADER;
-COPY HSLtrips FROM '/home/markus/HSL/trips.txt' DELIMITER ',' CSV HEADER;
-COPY HSLroutes FROM '/home/markus/HSL/routes.txt' DELIMITER ',' CSV HEADER;
-COPY HSLcalendar FROM '/home/markus/HSL/calendar.txt' DELIMITER ',' CSV HEADER;
+COPY HSLstops FROM '~/HSL/stops.txt' DELIMITER ',' CSV HEADER;
+COPY HSLstop_times FROM '~/HSL/stop_times.txt' DELIMITER ',' CSV HEADER;
+COPY HSLtrips FROM '~/HSL/trips.txt' DELIMITER ',' CSV HEADER;
+COPY HSLroutes FROM '~/HSL/routes.txt' DELIMITER ',' CSV HEADER;
+COPY HSLcalendar FROM '~/HSL/calendar.txt' DELIMITER ',' CSV HEADER;
 
 
 
