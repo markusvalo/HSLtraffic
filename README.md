@@ -3,8 +3,8 @@
 Scripts to create a PostgreSQL database for HSL GTFS-data.
 
 STEPS TO FOLLOW
-- 1_CREATE_SCHEMA_HSL.sql drops existing tables and anything related to them (cascade)
-- 2_UPLOAD_gtfs_csv.sql copies data from .txt-files into the tables
+- 1_CREATE_SCHEMA_HSL.sql drops existing tables and anything related to them (cascade). It then creates empty tables for raw data.
+- 2_UPLOAD_gtfs_csv.sql copies data from .txt-files into the tables.
 - 3_CREATE_TABLES_hslstoptimes_parsed.sql creates table(s) with some additional parsing in order to help filtering when utilizing the data. Tables probably to be combined in the future to make maintenance easier. They are now created by transport type (train/tram/metro/ferry/bus).
 
 Data can be downloaded as zip-archives from http://dev.hsl.fi/gtfs/.
