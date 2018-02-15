@@ -1,3 +1,5 @@
+/* Drop existing tables and create them for loading raw GTFS-data */
+
 DROP TABLE IF EXISTS HSLroutes CASCADE;
 
 CREATE TABLE public.HSLroutes
