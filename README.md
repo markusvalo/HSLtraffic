@@ -7,7 +7,7 @@ STEPS TO FOLLOW
 - 2_UPLOAD_gtfs_csv.sql copies data from .txt-files into the tables.
 - 3_CREATE_TABLES_hslstoptimes_parsed.sql creates table(s) with some additional parsing in order to help filtering when utilizing the data. Tables probably to be combined in the future to make maintenance easier. They are now created by transport type (train/tram/metro/ferry/bus).
 
-Data can be downloaded as zip-archives from http://dev.hsl.fi/gtfs/.
+Data can be downloaded as zip-archives from https://transitfeeds.com/p/helsinki-regional-transport/735.
 
 The files inside zip follow Google's GTFS-guidelines for public transport (at least to some level), descriptions here: https://developers.google.com/transit/gtfs/reference/
 
