@@ -91,7 +91,8 @@ CREATE TABLE public.HSLtrips
    direction_id smallint,
    shape_id text,
    wheelchair_accessible smallint,
-   bikes_allowed smallint
+   bikes_allowed smallint,
+   max_delay smallint
 ) 
 WITH (
   OIDS = FALSE
