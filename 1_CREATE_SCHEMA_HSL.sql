@@ -99,7 +99,7 @@ WITH (
 )
 ;
 
-
+CREATE EXTENSION postgis;
 
 
 
