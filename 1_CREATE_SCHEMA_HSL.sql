@@ -47,7 +47,7 @@ CREATE TABLE public.HSLstops
    stop_desc text,
    stop_lat numeric,
    stop_lon numeric,
-   zone_id smallint,
+   zone_id text,
    stop_url text,
    location_type smallint,
    parent_station text,
